@@ -65,7 +65,7 @@ contract Ballot {
         for (uint8 proposal = 0; proposal < proposals.length; proposal++)
             if (proposals[proposal].voteCount > winningVoteCount) {
                 winningVoteCount = proposals[proposal].voteCount;
-                _winningProposal = proposal;
+                winningProposal = proposal;
             }
     }
 }
