@@ -43,5 +43,7 @@ contract HelloWorld {
   // Testrpc is a node js test framework of a blockchain that happens on your computer
   // https://github.com/ethereumjs/testrpc
   
+  
+  // When you compile code on Truffle, it makes a big scary looking contract
 
 }
